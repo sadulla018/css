@@ -1,0 +1,58 @@
+table{
+    width: 100vw;
+    height: 50vh;
+}
+#c1{
+    background-color: orange;
+}
+#c2{
+    background-color: rgb(30, 0, 255);
+}
+#c3{
+    background-color: rgba(15, 129, 61, 0.759);
+}
+#c4{
+    background-color: rgb(146, 15, 109);
+}#c5{
+    background-color: rgb(120, 82, 11);
+}#c6{
+    background-color: rgb(59, 99, 81);
+}#c7{
+    background-color: rgb(170, 143, 92);
+}#c8{
+    background-color: rgb(0, 255, 251);
+}#c9{
+    background-color: rgb(20, 18, 13);
+}#c10{
+    background-color: rgb(16, 180, 188);
+}#c11{
+    background-color: rgb(255, 0, 8);
+}#c12{
+    background-color: rgb(83, 94, 122);
+}#c13{
+    background-color: rgb(175, 176, 215);
+}#c14{
+    background-color: rgb(234, 226, 225);
+}#c15{
+    background-color: rgb(91, 58, 141);
+}#c16{
+    background-color: rgb(203, 221, 214);
+}#c17{
+    background-color: rgb(100, 16, 183);
+}#c18{
+    background-color: rgb(210, 212, 206);
+}#c19{
+    background-color: rgb(124, 116, 112);
+}#c20{
+    background-color: rgb(255, 0, 191);
+}#c21{
+    background-color: rgb(223, 204, 167);
+}#c22{
+    background-color: rgb(132, 91, 14);
+}#c23{
+    background-color: rgb(34, 67, 215);
+}#c24{
+    background-color: rgba(193, 24, 145, 0.749);
+}#c25{
+    background-color: rgb(60, 243, 9);
+}
