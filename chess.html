@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .cm1{
+            border: 2px solid black;
+            height: 825px;
+            width: 800px;
+        }
+        .cm3>:nth-last-of-type(2n){
+            border: 2px solid  ;
+            height: 100px;
+            width: 100px;
+        }
+        .cm3>:nth-last-of-type(2n+1){
+            border: 2px solid black;
+            background-color: black;
+            height: 100px;
+            width: 100px;
+        }
+        .cm4{
+            position: relative;
+            left: 100px;
+            bottom: 826px;
+        }
+        .cm4>:nth-last-of-type(2n){
+            border: 2px solid black;
+            background-color: black;
+            height: 100px;
+            width: 100px;
+            
+        }
+        .cm4>:nth-last-of-type(2n+1){
+            border: 2px solid black;
+            background-color:white;
+            height: 100px;
+            width: 100px;
+        }
+        .cm5{
+            position: relative;
+            left: 200px;
+            bottom: 1652px;
+            
+        }
+        .cm5>:nth-last-of-type(2n){
+            border: 2px solid black;
+            background-color: white;
+            height: 100px;
+            width: 100px;
+            
+        }
+        .cm5>:nth-last-of-type(2n+1){
+            border: 2px solid black;
+            background-color:black;
+            height: 100px;
+            width: 100px;
+        }
+        .cm6{
+            position: relative;
+            left: 300px;
+            bottom: 2477px;
+            
+        }
+        .cm6>:nth-last-of-type(2n){
+            border: 2px solid black;
+            background-color: black;
+            height: 100px;
+            width: 100px;
+            
+        }
+        .cm6>:nth-last-of-type(2n+1){
+            border: 2px solid black;
+            background-color:white;
+            height: 100px;
+            width: 100px;
+        }
+        .cm7{
+            position: relative;
+            left: 400px;
+            bottom: 3303px;
+            
+        }
+        .cm7>:nth-last-of-type(2n){
+            border: 2px solid black;
+            background-color: white;
+            height: 100px;
+            width: 100px;
+            
+        }
+        .cm7>:nth-last-of-type(2n+1){
+            border: 2px solid black;
+            background-color:black;
+            height: 100px;
+            width: 100px;
+        }
+        .cm8{
+            position: relative;
+            left: 500px;
+            bottom: 4129px;
+            
+        }
+        .cm8>:nth-last-of-type(2n){
+            border: 2px solid black;
+            background-color: black;
+            height: 100px;
+            width: 100px;
+            
+        }
+        .cm8>:nth-last-of-type(2n+1){
+            border: 2px solid black;
+            background-color:white;
+            height: 100px;
+            width: 100px;
+        }
+        .cm9{
+            position: relative;
+            left: 600px;
+            bottom: 4954px;
+            
+        }
+        .cm9>:nth-last-of-type(2n){
+            border: 2px solid black;
+            background-color: white;
+            height: 100px;
+            width: 100px;
+            
+        }
+        .cm9>:nth-last-of-type(2n+1){
+            border: 2px solid black;
+            background-color:black;
+            height: 100px;
+            width: 100px;
+        }
+        .cm10{
+            position: relative;
+            left: 700px;
+            bottom: 5780px;
+            
+        }
+        .cm10>:nth-last-of-type(2n){
+            border: 2px solid black;
+            background-color: black;
+            height: 100px;
+            width: 100px;
+            
+        }
+        .cm10>:nth-last-of-type(2n+1){
+            border: 2px solid black;
+            background-color:white;
+            height: 100px;
+            width: 100px;
+        }
+        .cn10{
+            font-size: 80px;
+            text-align: center;
+        }
+        .cn2{
+            font-size: 80px;
+            color: white;
+            text-align: center;
+        }
+        .cn18{
+            font-size: 80px;
+            color: white;
+            text-align: center;
+        }
+        .cn26{
+            font-size: 80px;
+            text-align: center;
+        }
+        .cn34{
+            font-size: 80px;
+            color: white;
+            text-align: center;
+        }
+        .cn42{
+            font-size: 80px;
+            text-align: center;
+        }
+        .cn50{
+            font-size: 80px;
+            color: white;
+            text-align: center;
+        }
+        .cn58{
+            font-size: 80px;
+            text-align: center;
+        }
+        .cn1{
+            font-size: 80px;
+            text-align: center;   
+        }
+        .cn9{
+            font-size: 80px;
+            color: white;
+            text-align: center;
+        }
+        .cn17{
+            font-size: 80px;
+            text-align: center;  
+        }
+        .cn25{
+            font-size: 80px;
+            color: white;
+            text-align: center;
+        }
+        .cn33{
+            font-size: 80px;
+            text-align: center;  
+        }
+        .cn41{
+            font-size: 80px;
+            color: white;
+            text-align: center;
+        }
+        .cn49{
+            font-size: 80px;
+            text-align: center;  
+        }
+        .cn57{
+            font-size: 80px;
+            color: white;
+            text-align: center;
+        }
+        .cn7{
+            font-size: 80px;
+            text-align: center; 
+        }
+        .cn23{
+            font-size: 80px;
+            text-align: center; 
+        }
+        .cn39{
+            font-size: 80px;
+            text-align: center; 
+        }
+        .cn55{
+            font-size: 80px;
+            text-align: center; 
+        }
+        .cn63{
+            font-size: 80px;
+            color: white;
+            text-align: center;
+        }
+        .cn47{
+            font-size: 80px;
+            color: white;
+            text-align: center;
+        }
+        .cn31{
+            font-size: 80px;
+            color: white;
+            text-align: center;
+        }
+        .cn15{
+            font-size: 80px;
+            color: white;
+            text-align: center;
+        }
+        .cn8{
+            font-size: 80px;
+            color: white;
+            text-align: center;
+        }
+        .cn24{
+            font-size: 80px;
+            color: white;
+            text-align: center;
+        }
+        .cn40{
+            font-size: 80px;
+            color: white;
+            text-align: center;
+        }
+        .cn56{
+            font-size: 80px;
+            color: white;
+            text-align: center;
+        }
+        .cn64{
+            font-size: 80px;
+            text-align: center;    
+        }
+        .cn48{
+            font-size: 80px;
+            text-align: center; 
+        }
+        .cn32{
+            font-size: 80px;
+            text-align: center; 
+        }
+        .cn16{
+            font-size: 80px;
+            text-align: center; 
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cm1">
+        
+            <div class="cm3">
+                <div class="cn1">&#9814</div>
+                <div class="cn2">&#9817</div>
+                <div class="cn3"></div>
+                <div class="cn4"></div>
+                <div class="cn5"></div>
+                <div class="cn6"></div>
+                <div class="cn7">	&#9817</div>
+                <div class="cn8"> &#9820</div>
+            </div>
+            <div class="cm4">
+                <div class="cn9">&#9816
+                </div>
+                <div class="cn10">&#9823</div>
+                <div class="cn11">
+                </div>
+                <div class="cn12"></div>
+                <div class="cn13"></div>
+                <div class="cn14"></div>
+                <div class="cn15">	&#9823</div>
+                <div class="cn16">	&#9822</div>
+            </div>
+            <div class="cm5">
+                <div class="cn17">&#9815</div>
+                <div class="cn18">&#9817</div>
+                <div class="cn19"></div>
+                <div class="cn20"></div>
+                <div class="cn21"></div>
+                <div class="cn22"></div>
+                <div class="cn23">	&#9817</div>
+                <div class="cn24">	&#9821</div>
+            </div>
+            <div class="cm6">
+                <div class="cn25">	&#9812</div>
+                <div class="cn26">&#9823</div>
+                <div class="cn27"></div>
+                <div class="cn28"></div>
+                <div class="cn29"></div>
+                <div class="cn30"></div>
+                <div class="cn31">	&#9823</div>
+                <div class="cn32">	&#9819</div>
+            </div>
+            <div class="cm7">
+                <div class="cn33">	&#9813</div>
+                <div class="cn34">&#9817</div>
+                <div class="cn35"></div>
+                <div class="cn36"></div>
+                <div class="cn37"></div>
+                <div class="cn38"></div>
+                <div class="cn39">	&#9817</div>
+                <div class="cn40">	&#9812</div>
+            </div>
+            <div class="cm8">
+                <div class="cn41">&#9821</div>
+                <div class="cn42">&#9823</div>
+                <div class="cn43"></div>
+                <div class="cn44"></div>
+                <div class="cn45"></div>
+                <div class="cn46"></div>
+                <div class="cn47">	&#9823</div>
+                <div class="cn48">	&#9821</div>
+            </div>
+            <div class="cm9">
+                <div class="cn49">&#9822</div>
+                <div class="cn50">&#9817</div>
+                <div class="cn51"></div>
+                <div class="cn52"></div>
+                <div class="cn53"></div>
+                <div class="cn54"></div>
+                <div class="cn55">&#9817</div>
+                <div class="cn56">&#9822</div>
+            </div>
+            <div class="cm10">
+                <div class="cn57">&#9820</div>
+                <div class="cn58">&#9823</div>
+                <div class="cn59"></div>
+                <div class="cn60"></div>
+                <div class="cn61"></div>
+                <div class="cn62"></div>
+                <div class="cn63">	&#9823</div>
+                <div class="cn64">	&#9814</div>
+            </div>
+    </div>
+</body>
+</html>
